@@ -1,6 +1,8 @@
 ---
 applications:
 - buildpack: go_buildpack
+  name: logger
+  memory: 64M
   env:
     GOVERSION: 1.x
     GOPACKAGENAME: github.com/cloudfoundry-samples/logging-route-service
